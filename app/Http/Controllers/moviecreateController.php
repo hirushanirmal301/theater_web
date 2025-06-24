@@ -54,7 +54,7 @@ class moviecreateController extends Controller
             'genre' => $validate['genre'],
             'rating' => $validate['rating'],
             'poster' => $validate['poster'],
-            'price' => $validate['price']
+            'price' => $validate['price'],
         ]);
 
         dd($request);
