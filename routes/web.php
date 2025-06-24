@@ -13,3 +13,7 @@ Route::get('movie/create', [moviecreateController::class, 'index'])->name('movie
 Route::post('movie/store', [moviecreateController::class, 'store'])->name('movie.store');
 
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

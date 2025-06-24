@@ -15,7 +15,7 @@ class movie extends Model
     	'genre',
     	'rating',
     	'image',
-    	'price'
+    	'price',
 
     ];
 
